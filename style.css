@@ -1,0 +1,121 @@
+/* Set background gradient */
+html,
+body {
+    min-height: 100%;
+    /* Ensures that the body takes up at least the full height of the viewport */
+}
+
+body {
+    background: linear-gradient(to top, #ff6f00, #ffff00);
+    /* Sets a linear gradient background from orange to yellow */
+    margin: 15px;
+    /* Adds a margin around the body */
+    padding: 5px;
+    /* Adds padding inside the body */
+}
+
+.container {
+    padding: 20px;
+    /* Adds padding to the container element */
+}
+
+/* Set font styles */
+h1,
+h3,
+p {
+    color: #743c2c;
+    /* Sets the text color to dark brown */
+    font-family: Verdana, Arial, sans-serif;
+    /* Sets the font family to Verdana, Arial, sans-serif */
+}
+
+/* Style the links */
+a {
+    display: inline-block;
+    /* Displays the link as an inline block element */
+    padding: 10px 20px;
+    /* Adds padding to the link */
+    color: #ff6f00;
+    /* Sets the link color to orange */
+    text-decoration: none;
+    /* Removes the underline from the link */
+    background-color: #f3d2a9;
+    /* Sets the background color of the link to light beige */
+    border: none;
+    /* Removes the border of the link */
+    border-radius: 30px;
+    /* Rounds the corners of the link */
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    /* Adds a smooth transition effect */
+}
+
+a:hover {
+    background-color: #ff6f00;
+    /* Changes the background color of the link on hover to orange */
+    color: #fff;
+    /* Changes the text color of the link on hover to white */
+    transform: scale(1.1);
+    /* Scales the size of the link on hover */
+}
+
+/* Style the ordered list */
+ol {
+    color: #743c2c;
+    /* Sets the text color of the ordered list to dark brown */
+}
+
+/* Style the list items */
+li {
+    margin-bottom: 10px;
+    /* Adds margin at the bottom of each list item */
+}
+
+/* Style the images */
+img {
+    max-width: 100%;
+    /* Ensures that the images don't exceed their parent container's width */
+    display: block;
+    /* Displays the image as a block-level element */
+    margin-left: auto;
+    /* Centers the image horizontally by setting the left margin to auto */
+    margin-right: auto;
+    /* Centers the image horizontally by setting the right margin to auto */
+}
+
+/* Additional styles specific to the sunset theme */
+h1,
+h3 {
+    background-color: #f3d2a9;
+    /* Sets the background color of the headings to light beige */
+    border-radius: 15px;
+    /* Rounds the corners of the headings */
+    padding: 10px;
+    /* Adds padding to the headings */
+}
+
+a#top {
+    opacity: 0; 
+}
+
+img {
+    border: 5px solid #f3d2a9;
+    /* Adds a border around the images */
+}
+
+a:hover {
+    box-shadow: 0 0 10px #ff6f00;
+    /* Adds a box shadow to the link on hover */
+}
+
+/* Style the return link */
+p a {
+    font-size: 16px;
+    /* Sets the font size of the return link */
+    color: #743c2c;
+    /* Sets the text color of the return link to dark brown */
+}
+
+p a:hover {
+    color: #ff6f00;
+    /* Changes the text color of the return link on hover to orange */
+}
